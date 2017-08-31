@@ -10,6 +10,7 @@ import io.vertx.core.AbstractVerticle;
 public class ApplicationLauncher extends AbstractVerticle {
 
     public void start() {
+
         vertx.deployVerticle(VertxHelloVerticle.class.getName());
     }
 }
